@@ -1,1 +1,287 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:luxids="http://www.temis.com/luxid-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Amazon">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Amazon</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Rewards"/>
+	<luxids:AND>Amazon "Amazon.com" amzon</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Website">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Website</skos:prefLabel>
+	<luxids:AND>website Web "web site" internet online</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#U.S. Bank">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">U.S. Bank</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>"U.S. Bank" "U.S.Bank" "US Bank" USbank</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Emotions">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Emotions</skos:prefLabel>
+	<luxids:AND>happy disappoint* love hate like sad unhappy satisfied dissatisfied satisfy satisfactory "don't like" impressed upset annoy* trust pleased pleasure irked frustrated worry concerned worried ecstatic content contented overjoyed elated glad thrilled grateful delighted upset mad angry confused distressed amazed dismayed shocked livid offend* furious irate irritated outraged annoyed indignant bitter exasperated fuming displeased afraid perturbed upset scared frightened disturbed comforted calm excit* distraught fearful nervous uneasy apprehensive anxious appreciat*</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Customer Service">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<luxids:ExtractionMethod rdf:resource="urn:luxid:/List/Method#ExactMatchIgnoreCase"/>
+	<skos:prefLabel xml:lang="en">Customer Service</skos:prefLabel>
+	<luxids:AND>"customer service" "customer care" president Employees "customer services" reception managers "customer service" staffs "staff's" "employee's""workers" crews clerk crew managements maintenance employee "worker" attendants manager "manager's" "customer-service" management personnel attendant clerks staffing "management's" attendant staff representative* supervisor* rep reps "front desk" staffed "the agent was" "over the phone" "spoke to was" "operator" friendly cordial courteous courtesy cheerful rude "are friendly" "are helpful" knowledgeable knowledge "lack of knowledge" competent compatent competant  "explain everything" knowledgeable "able to explain" "answer all my questions" "answer all the questions" "answered all of my questions" "answered my questions" "better explanation" "explained everything" "explaining the product" "incorrect information" "knowledge" "know what they are talking about" "questions were answered" "took time to explain" "very informative" "very knowledgeable" "very thorough" EXCLUDES "without my" "with out my" "help me" kind service</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Problems">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Problems</skos:prefLabel>
+	<luxids:AND>problem problems issue issues concern concerns difficulty resolved resolution</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Interest Rate">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Interest Rate</skos:prefLabel>
+	<luxids:AND>rate rates apr apy interest "interests on" "interests rates"~3 "interests rate"~3 "return on" "interest rate" "interest rates" "%" percent*</luxids:AND>
+	<luxids:NOT>"credit rating" "is interesting" "do ratings" "rated it" "excellent rating" "this rating" "the rating" "be interested"</luxids:NOT>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#GE Capital Retail Bank-Synchrony Bank">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">GE Capital Retail Bank-Synchrony Bank</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>GE Synchrony</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Travel">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Travel</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Rewards"/>
+	<luxids:AND>travel hotel airline "air miles" IHG trip vacation Maui Disney cruise mileage flights Hilton American JetBlue airmiles mileage flight airline miles Southwest Delta "frequent flyer miles" "skymiles" "sky miles" United AA "American Airlines" "Jetblue" "JetBlu" Alaska "Alaska Airlines" "frequent-flyer" "frequent flier" "frequent-flier"</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Annual Fees">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Annual Fees</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Fees"/>
+	<luxids:AND>"annual fee" "ann fee" "annual fees" "yearly fee" "yearly fees" "yearly cost" "annual cost" "membership fee"</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Discover">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Discover</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>Discover</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Statement">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Statements</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Billing and Payment"/>
+	<luxids:AND>((statement statements) AND ("easy to read" "easy to understand" clear confusing problem accurate electronic early late)) "billing statement"</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Chase">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Chase</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>Chase</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Competition">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Competition</skos:prefLabel>
+	<luxids:AND>bank company "the bank" "your bank" competitor "Wells Fargo" "US Bank" "Bank of America" Chase "Capital One" Citibank boa "b of a" "Synchrony Bank" wells Bofa Discover "American Express" AMEX boa Barclaycard "Barclay card" Citi GE Synchrony HSBC "U.S. Bank" "US Bank" "U.S.bank" "USbank"</luxids:AND>
+	<luxids:NOT>Walmart "Wal-Mart" "Wal Mart"</luxids:NOT>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Rewards">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Rewards</skos:prefLabel>
+	<luxids:AND>reward rewards points "cash back" "for travel" "benefits" "bonus points" perk "reward program" "rewards program" "benefits program" "statement credit" "bill credit" "billing credit" "airline miles" airmiles "air miles" "gift card" giftcard "bonus miles" Amazon hotel HGI Hilton ((points) AND (buy pay)) cashback "%" "frequent flyer miles" "points program" miles "Southwest points" skymiles "sky miles" amzon "amazon.com" gas merchandise donation charitable vehicle travel Alaska</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#App">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">App</skos:prefLabel>
+	<luxids:AND>app mobile</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#International Fees">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">International Fees</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Fees"/>
+	<luxids:AND>((fee*) AND (international "foreign exchange" "out of the country" "foreign transaction*" "foriegn transaction*" "foriegn exchange" "foreign transaction" abroad overseas travel))</luxids:AND>
+	<luxids:NOT>"annual fee"</luxids:NOT>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Payment Fees">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Payment/Late Fees</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Fees"/>
+	<luxids:AND>"payment fee" "fee to pay" "late fee" "late fees"</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Capital One">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Capital One</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>"Capital One" CapitalOne</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Airline">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Airline</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Travel"/>
+	<luxids:AND>American JetBlue "air miles" airmiles mileage flight flights airline miles "Southwest Airlines" Delta "frequent flyer" miles miles "skymiles" "sky miles" "Alaska airlines" AA "American Airlines" Alaska Southwest</luxids:AND>
+	<luxids:NOT>"user friendly" "user-friendly" IHG Hilton hotel hotels</luxids:NOT>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Bank of America">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Bank of America</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>"Bank of America" boa bofa "b of a"</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Barclaycard">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Barclaycard</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>Barclay Barclaycard "Barclay Card"</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Cash Back">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Cash Back</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Rewards"/>
+	<luxids:AND>"cash back" "cashback" "cash rewards" "% back" dollars</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Benefits">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Benefits</skos:prefLabel>
+	<luxids:AND>benefit benefits "free checked bags" "shopping discount" "shopping discounts" "free checked luggage" "account summary" FICO "credit score" rebate warranty warrantee "purchase protection" insurance "late check-out" "late checkout" "room upgrade" "free upgrade" "priority boarding" concert club clubs "presale tickets" "pre-sale tickets" roadside concierge</luxids:AND>
+	<luxids:NOT>point</luxids:NOT>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Fraud">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Fraud-Security</skos:prefLabel>
+	<luxids:AND>fraud suspicious suspect "fraud alert" "fraud alerts" aware security unauthorized illegal "identity theft" forg* scam scheme criminal thief theft fruad "fruad alert" "email alerts" "email alert" fraudulent "fraud prevention" "card compromised" "fraud protection" stole stolen "monitoring my cc" "monitoring my credit card"</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Points">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Points</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Rewards"/>
+	<luxids:AND>points</luxids:AND>
+	<luxids:NOT>point</luxids:NOT>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#HSBC">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">HSBC</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>HSBC</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Hotel">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Hotel</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Travel"/>
+	<luxids:AND>IHG Hilton hotel hotel "Holiday Inn" Marriott</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Billing and Payment">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Billing and Payment</skos:prefLabel>
+	<luxids:AND>bill* statement statements invoice pay*</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Convenience">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Convenience</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Billing and Payment"/>
+	<luxids:AND>"easy to pay" flexible flexibility "ways to pay" "way to pay" ((pay payment bill) AND (convenient convenience easy)) "easy payments" ((pay*) AND ("easy to do" "easy to make"))</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Wells Fargo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Wells Fargo</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>"Wells Fargo" Wells WF</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Payment Method">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Payment Method</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Billing and Payment"/>
+	<luxids:AND>((phone mobile online online "on-line" web website "web-site" app "app." Walmart "Wal-Mart" "Wal Mart") AND (pay* bill)) "cash payment" billpay "automatic withdrawal" "auto payment" "automatic payment" electronic online phone computer "in person" "in-person" "ways to pay" "ways of payment" ((pay) AND (method))</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#American Express">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">American Express</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>"American Express" AMEX</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Accuracy">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Billing Accuracy</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Billing and Payment"/>
+	<luxids:AND>accurate accuracy correct incorrect inaccurate</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Fees">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Fees</skos:prefLabel>
+	<luxids:AND>fee fees "fee's" feeing surcharge surcharges "don t charge" penalty penalties "sur charge" surcharges "sur charges" overcharge overcharges "service charge" "services charges" "fee's" nickel nickle cost "free checking" "annual fee" "yearly fee" "intrnational" "out of the country" "international fees" "foreign transaction fees" "fees abroad" "payment fee" "fee to pay"</luxids:AND>
+	<luxids:NOT>"% back"</luxids:NOT>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Loyalty_1">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Loyalty</skos:prefLabel>
+	<luxids:AND>loyal disloyal recommend* "many years" 19* 20* "for years" "credit card" "closing this credit card" recommended recommending ((cancel*) AND ("my card" "the card" "this card" "my credit card" "the credit card" "this credit card")) ((for almost nearly "close to" "more than" "more then") AND (years)) love wonderful awesome best amazing ((card "credit card") AND (cancel*)) ((cancel*) AND (card "credit card")) "better than other cards" years recommend recommended "since 19*" "since 20*" "longtime customer" "long time" "long-time customer" "since 1984" "member since" "customer for" "customer since"</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Citi">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Citi</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Competition"/>
+	<luxids:AND>Citi Citibank "citi bank"</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.temis.com/luxid#Payment Timing">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Payment Timing</skos:prefLabel>
+	<skos:broader rdf:resource="http://www.temis.com/luxid#Billing and Payment"/>
+	<luxids:AND>((pay paying paid pays) AND ("on time" "early payment" early late forgot "day late" "miss a payment" "each month" monthly)) "credited immediately" "credited quickly" "credited right away" "process payment" "process payments"</luxids:AND>
+</rdf:Description>
+
+<rdf:Description rdf:about="urn:luxid:/List/Method#ExactMatchIgnoreCase">
+	<rdf:type rdf:resource="urn:luxid:/List/Method"/>
+	<skos:prefLabel xml:lang="en">Same Form</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Même forme</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="urn:luxid:/List/Method#ExactMatchPreserveCase">
+	<rdf:type rdf:resource="urn:luxid:/List/Method"/>
+	<skos:prefLabel xml:lang="en">Same Form, Same Case</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Même forme et casse</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="urn:luxid:/List/Method#Default">
+	<rdf:type rdf:resource="urn:luxid:/List/Method"/>
+	<skos:prefLabel xml:lang="en">Fuzzy Matching</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Étendue</skos:prefLabel>
+</rdf:Description>
+
+</rdf:RDF>
